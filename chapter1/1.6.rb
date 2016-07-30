@@ -19,4 +19,5 @@ def rotate_matrix(image_matrix,n)
       image_matrix[i][last] = temp
     end
   end
+  p image_matrix
 end
