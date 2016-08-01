@@ -16,7 +16,7 @@ class Node
   def add_to_tail(data)
     head = self
     last = head
-    while last.next_link != nil
+    while last.next_link != nil do
       last = last.next_link
     end
     new_node = Node.new(data)
