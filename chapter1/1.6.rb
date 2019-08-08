@@ -3,10 +3,10 @@
 
 def rotate_matrix(image_matrix,n)
   mid = n/2
-  for layer in 0..mid
+  for layer in 0...mid
     first = layer
-    last = n - layer -1
-    for i in first..last
+    last = n-layer-1
+    for i in first...last
       offset = i - first
       temp = image_matrix[first][i]
       # left to top
